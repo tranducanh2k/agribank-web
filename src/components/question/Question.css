@@ -1,0 +1,22 @@
+.question {
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 2px solid #a517384b;
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.question .appearFirst {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1.5rem;
+    font-weight: 600;
+    color: #a51738;
+}
+
+.question p {
+    white-space: pre-line;
+    margin-top: 2rem;
+}

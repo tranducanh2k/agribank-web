@@ -1,0 +1,79 @@
+@import '../../constants/color.css';
+
+.homepage {
+
+}
+
+.homepage .saigon-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.homepage .img-panel {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.705);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+    top: 35vh;
+    left: 15vw;
+    border-radius: 10px;
+    width: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage .img-panel header {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.homepage .img-panel button {
+    background-color: var(--lightOrange);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.homepage .img-panel button:hover {
+    box-shadow: 0px 0px 5px var(--lightOrange);
+}
+.homepage .img-panel button:active {
+    filter: brightness(0.95);
+}
+
+.homepage .service-div {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.homepage .service-div .xemthem {
+    position: absolute;
+    left: 85vw;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 119, 0);
+}
+.homepage .service-div .xemthem:hover {
+    filter: brightness(0.9);
+}
+
+.homepage .service-div .inner-service-div {
+    padding: 3rem 5rem 0 5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 3vw;
+}
+
+.homepage .service-div header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 105, 0);
+}

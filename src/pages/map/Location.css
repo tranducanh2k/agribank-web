@@ -1,0 +1,57 @@
+.location {
+    display: flex;
+}
+
+.location .searchDiv {
+    width: 30%;
+    height: 80vh;
+    padding: 1rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.location .searchDiv .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.location .searchDiv .row1 {
+    column-gap: 0.5rem;
+}
+
+.location .searchDiv .row1 button {
+    border: none;
+    background-color: rgb(237, 95, 0);
+    border-radius: 5px;
+    color: white;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.location .searchDiv .row2 {
+    column-gap: 0.5rem;
+    width: 100%;
+}
+
+.location .searchDiv .row3 {
+    column-gap: 0.5rem;
+}
+
+.location .searchDiv .scrollDiv {
+    overflow-y: auto;
+}
+
+.location .searchDiv .scrollDiv .locationItem {
+    border-top: 1px solid rgb(218, 218, 218);
+    padding: 0 1rem 2rem 1rem;
+}
+
+.location .searchDiv .scrollDiv .locationItem h2 {
+    color: rgb(237, 95, 0);
+}
+
+.location .map-container {
+    width: 70%;
+    height: 90vh;
+}

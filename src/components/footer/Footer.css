@@ -1,0 +1,54 @@
+@import '../../constants//color.css';
+
+.footer {
+    background: linear-gradient(to right, var(--lightOrange), var(--darkOrange));
+    padding: 1rem 10% 1rem 10%;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer .left-div {
+    float: left;
+}
+
+.footer .left-div a {
+    color: white;
+}
+
+.footer .left-div .menu-footer li {
+    display: inline-block;
+    margin: 0 1rem 1rem 1rem;
+    font-weight: 500;
+}
+.footer .left-div .menu-footer li:hover {
+    filter: brightness(0.9);
+}
+
+.footer .left-div .menu-footer li:first-child {
+    margin-left: 0;
+}
+
+.footer .left-div .info-footer {
+    color: rgb(225, 225, 225);
+    font-size: 14px;
+}
+
+.footer .right-div {
+    float: right;
+}
+
+.footer .right-div li {
+    display: inline;
+    margin: 0 1rem 0 0;
+}
+
+.footer .right-div span {
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    .footer .right-div {
+        float: left;
+    }
+}

@@ -1,0 +1,153 @@
+@import '../../constants/color.css';
+
+.header {
+    position: sticky;
+    top: -2rem;
+    z-index: 999;
+}
+
+.header .upperHeader {
+    background: linear-gradient(to right, rgb(217, 87, 0), rgb(206, 82, 0));
+    text-align: right;
+    height: 2rem;
+    padding: 0.5rem 1rem 0.5rem 0;
+    box-sizing: border-box;
+}
+
+.header .upperHeader a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.header .upperHeader a:hover {
+    color: rgb(224, 224, 224);
+}
+
+.header .lowerHeader {
+    background: linear-gradient(to right, var(--lightOrange), var(--darkOrange));
+    height: 4rem;
+    position: relative;
+}
+
+.header .lowerHeader .menu-icon {
+    cursor: pointer;
+    color: white;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    left: 1.5rem;
+    top: 0.5rem;
+}
+
+.header .lowerHeader .agribank2 {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.header .lowerHeader .floatRight {
+    float: right;
+    height: 100%;
+    width: 32vw;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5%;
+    margin-right: 1rem;
+}
+
+.header .lowerHeader .floatRight a {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .lowerHeader .floatRight button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.header .lowerHeader .floatRight button:hover {
+    color: rgb(217, 217, 217);
+}
+
+.header .lowerHeader .floatRight .username {
+    color: white;
+    font-weight: 700;
+    /* margin-right: 1rem; */
+}
+.header .lowerHeader .floatRight .username:hover {
+    cursor: pointer;
+    color: rgb(221, 221, 221);
+}
+.header .lowerHeader .floatRight .username:active {
+    color: rgb(193, 193, 193);
+}
+
+.header .lowerHeader .sidebar {
+    background-color: white;
+    top: 4rem;
+    right: 20rem;
+    height: 100vh;
+    width: 320px;
+    transition: 300ms;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: -100%;
+    box-shadow: 2px 7px 9px rgba(0, 0, 0, 0.2);
+}
+.header .lowerHeader .sidebar.active {
+    left: 0;
+    background-color: white;
+    transition: 300ms;
+}
+
+.header .lowerHeader .sidebar a {
+    color: black;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.header .lowerHeader .sidebar a:hover {
+    color: orange;
+}
+
+.header .lowerHeader .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.4rem;
+}
+
+.header .lowerHeader .sidebar li {
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    padding-bottom: 0.5rem;
+    border-bottom-color: rgb(198, 198, 198);
+}
+
+.header .lowerHeader .sidebar svg {
+    color: orange;
+}
+
+.header .lowerHeader .menu-dropdown {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    width: 13rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.header .lowerHeader .menu-dropdown a {
+    color: black;
+    font-weight: 500;
+}
+.header .lowerHeader .menu-dropdown a:hover {
+    color: orange;
+}

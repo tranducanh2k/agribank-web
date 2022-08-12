@@ -1,0 +1,108 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.login button {
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login .terraceImg {
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+    background-color: aquamarine;
+}
+
+.login .rightDiv {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.5rem;
+}
+
+.login .rightDiv h1 {
+    background: linear-gradient(to right, rgb(237, 95, 0), rgb(219, 88, 0));
+    background-clip: text;
+    color: transparent;
+}
+
+.login .rightDiv .logo {
+    height: 4rem;
+    cursor: pointer;
+}
+
+.login .rightDiv .bottomNav {
+    position: absolute;
+    bottom: 3rem;
+}
+
+.login .rightDiv .loginBtn {
+    margin-top: 2rem;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(246, 99, 0), rgb(219, 88, 0));
+    border-radius: 20px;
+    width: 40%;
+    height: 2.5rem;
+}
+.login .rightDiv .loginBtn:active {
+    filter: brightness(0.9);
+}
+
+.login .rightDiv .forgetBtn {
+    border-radius: 20px;
+    width: 40%;
+    height: 2.5rem;
+    font-weight: 600;
+    color: #ed5f00;
+    background-color: transparent;
+}
+.login .rightDiv .forgetBtn:hover {
+    background-color: rgb(246, 246, 246);
+}
+.login .rightDiv .forgetBtn:active {
+    background-color: rgb(232, 232, 232);
+}
+
+.login .rightDiv .bottomNav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+
+.login .rightDiv .bottomNav a {
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.login .MuiTextField-root {
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .login .terraceImg {
+        width: 0;
+    }
+
+    .login .rightDiv {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .login .rightDiv .language,
+    .login .rightDiv .bottomNav {
+        visibility: hidden;
+    }
+}

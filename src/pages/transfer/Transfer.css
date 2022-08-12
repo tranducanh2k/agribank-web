@@ -1,0 +1,26 @@
+.transfer {
+    background-color: #f3f3f3;
+    color: rgb(54, 54, 54);
+    padding: 2rem 5rem 2rem 5rem;
+    height: 72vh;
+}
+
+.transfer .big-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.transfer span {
+    font-weight: 600;
+}
+
+.transfer .body {
+    margin-top: 3rem;
+}
+
+.transfer .body .row {
+    display: flex;
+    justify-content: center;
+    column-gap: 3vw;
+    margin-bottom: 2rem;
+}

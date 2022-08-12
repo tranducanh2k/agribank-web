@@ -1,0 +1,88 @@
+.account-balance {
+    background-color: #f3f3f3;
+    height: 70vh;
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    padding: 3rem 0 3rem 0;
+}
+
+.account-balance svg {
+    color: orange;
+}
+
+.account-balance .box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.account-balance .title {
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+    padding-bottom: 1rem;
+    border-bottom-style: dashed;
+    border-bottom-width: 1.5px;
+    border-bottom-color: rgb(214, 214, 214);
+}
+
+.account-balance .left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.account-balance .left .balance-info .bi {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(234, 234, 234);
+    padding: 1rem 0 1rem 0;
+}
+
+.account-balance .left .balance-info .bi.number .stk {
+    margin-bottom: 10px;
+}
+
+.account-balance .left .balance-info .bi.number span {
+    color: rgb(255, 106, 0);
+}
+
+.account-balance .left .balance-info .bi .bi-name {
+    font-size: 0.9rem;
+    color: rgb(118, 118, 118);
+    margin-bottom: 10px;
+}
+
+.account-balance .left .safe-balance .title {
+    margin-bottom: 1rem;   
+}
+
+.account-balance .search-transaction {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.account-balance .search-transaction .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.account-balance .search-transaction .search button {
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    cursor: pointer;
+}
+.account-balance .search-transaction .search button:hover {
+    filter: brightness(0.95);
+}
+
+.account-balance .search-transaction .search svg {
+    color: white;
+}
